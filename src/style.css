@@ -42,8 +42,11 @@ background:white
 .btn:hover{
     background-color:#00436E;
 }
-.pCard{
-    font-size: 12px;
+
+#myModal {
+    background-color: #019BFF;
+    color: white;
+
 }
 .card {
     width: 18rem;
@@ -64,4 +67,13 @@ footer p {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     color: black
+}
+
+@media all and (max-width: 400px) {
+    .card {
+        width: 15rem;
+        height: 450px;
+        
+    }
+  
 }
