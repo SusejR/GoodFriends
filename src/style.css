@@ -1,0 +1,67 @@
+body {
+background:white
+}
+.name {
+    font-family: cursive;
+    font-size: 60px;
+    
+}
+
+.friends {
+    max-width: 300px;
+    border-radius: 5%;
+    margin:5%;
+    border: 2px solid #00436E; 
+}
+#home {
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items:center;
+
+}
+#container {
+    margin-top: 2%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+.btn {
+    height: 40px;
+    color:white;
+    border: 2px solid rgb(14, 51, 73);
+    border-radius: 10%;
+    text-align: center;
+    align-self: center;
+    background-color: #019BFF;
+    margin: 2%;
+}
+.btn:hover{
+    background-color:#00436E;
+}
+.pCard{
+    font-size: 12px;
+}
+.card {
+    width: 18rem;
+    height: 500px;
+    margin: auto;
+    background-color:#019BFF;
+    color: white;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+footer p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: black
+}
